@@ -1,0 +1,9 @@
+Steps to Execute Lex Program:
+lex <pgm name>
+cc lex.yy.c –ll
+./a.out
+Steps to execute YACC program:
+yacc –d <yacc_pgm name>
+lex <lex_pgm_name>
+cc y.tab.c lex.yy.c –ly –ll
+./a.out
